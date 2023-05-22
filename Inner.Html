@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="code.css">
+    <title>Gerador de Senha</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container_principal">
+            <h1 class="text-center">Gerador de Senha</h1>
+            <p class="text-center"> Utilize o gerador online para a criação de sua senha forte e
+                totalmente seguro</p>
+            <div class="container1 d-flex justify-content-center">
+                <h4>AGHOMMSIPW@#NKN</h4>
+                <button type="button">
+                    <ion-icon name="copy-outline"></ion-icon>
+                </button>
+                <button onclick="aleatory();bar()">
+                    <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+            </div>
+            <div class="bar d-flex justify-content-center">
+                <div class="bar_security">
+                    <div class="bar_security_in"></div>
+                </div>
+            </div>
+
+            <div class="container2">
+                <h5 class="text-center">Personalizar Senha</h5>
+                <div class="edit_container d-flex justify-content-around">
+                        <input id="range" type="range" min="4" max="15" oninput="caracteres()">
+                            <p id="range_text">1</p>
+                        <div class="check_space d-flex flex-column">
+                            <div class="check_space_in d-flex flex-column">
+                                <input class="checkbox_maiusculo" type="checkbox">
+                                <p>Maiúscula</p>
+                            </div>
+                            <div class="check_space_in2 d-flex flex-column">
+                                <input class="checkbox_numbers" type="checkbox">
+                                <p>Números</p>
+                            </div>
+                            <div class="check_space_in2 d-flex flex-column">
+                                <input class="checkbox_simbols" type="checkbox">
+                                <p>Símbolos</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        <div class="botao d-flex justify-content-center">
+            <button class="copy" type="button">Copiar Senha</button>
+        </div>   
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="code.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
